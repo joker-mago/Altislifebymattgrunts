@@ -9,4 +9,5 @@ X_MP = (if (playersNumber east + playersNumber west + playersNumber resistance +
 
 versionInfo = "Altis Life By MattGrunts 0.01"
 
+execVM "briefing.sqf";
 execVM "playerhud.sqf";
