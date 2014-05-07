@@ -1,0 +1,29 @@
+respawn = "BASE";
+respawnDelay = 10;
+respawnDialog = true;
+disabledAI = true;
+disableChannels[]={0};
+classHeader
+{
+	gameType=RPG;
+	minPlayers=1;
+	maxPlayers=100;
+};
+author = MattGrunts - TS : 62.4.23.10;
+OnLoadName = "Altis Life";
+OnLoadMission = "!!! Version 0.01 !!! Maj du 07/05/2014";
+
+class RscTitles
+{
+	
+};
+
+class CfgSounds
+{
+	sounds[] = {};
+};
+
+class CfgFunctions
+{
+
+};
