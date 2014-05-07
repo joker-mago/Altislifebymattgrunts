@@ -8,3 +8,5 @@ X_SPE = false;
 X_MP = (if (playersNumber east + playersNumber west + playersNumber resistance + playersNumber civilian > 0) then {true} else {false});
 
 versionInfo = "Altis Life By MattGrunts 0.01"
+
+execVM "playerhud.sqf";
