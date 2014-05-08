@@ -7,8 +7,6 @@ X_JIP = false;
 X_SPE = false;
 X_MP = (if (playersNumber east + playersNumber west + playersNumber resistance + playersNumber civilian > 0) then {true} else {false});
 
-versionInfo = "Altis Life By MattGrunts 0.03";
-
 player setVariable["thirstLevel",100,true];
 player setVariable["hungryLevel",100,true];
 player setVariable["dormir",100,true];
