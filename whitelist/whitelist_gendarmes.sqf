@@ -10,7 +10,7 @@ waitUntil {!isNull player};
 waitUntil {player == player};
 
 _ListeGendarmes = [
-  Cop_1,
+  	Cop_1,
 	Cop_2,
 	Cop_3,
 	Cop_4,
@@ -39,7 +39,6 @@ _ListeGendarmes = [
 if (player in _ListeGendarmes) then
 {
   _uidListeGendarmes = [
-    "76561198132905034", //MattGrunts
     "76561198038026131", //Steve
     "76561198014384317" //Mike
   ];
