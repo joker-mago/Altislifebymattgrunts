@@ -7,6 +7,11 @@ X_JIP = false;
 X_SPE = false;
 X_MP = (if (playersNumber east + playersNumber west + playersNumber resistance + playersNumber civilian > 0) then {true} else {false});
 
+if (isServer) exitWith {};
+waitUntil {!isNull player};
+waitUntil {player == player};
+waitUntil {alive player};
+
 execVM "whitelist\whitelist_gendarmes.sqf";
 
 player setVariable["thirstLevel",100,true];
