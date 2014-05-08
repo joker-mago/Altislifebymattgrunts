@@ -21,3 +21,4 @@ execVM "niveauboisson.sqf";
 execVM "niveaunourriture.sqf";
 execVM "dormir.sqf";
 execVM "remiseazerosihack.sqf";
+execVM "antiafk.sqf";
