@@ -23,9 +23,9 @@ if (isDedicated) then {} else
 			disableUserInput true;
 			sleep 9;
 			disableUserInput false;
-			player setVariable["fautdormir",1,true];
+			player setVariable["dormir",1,true];
 			sleep 2;
-			player setVariable["fautdormir",2,true];
+			player setVariable["dormir",2,true];
 		};
   };
 };
