@@ -9,7 +9,7 @@ X_MP = (if (playersNumber east + playersNumber west + playersNumber resistance +
 
 versionInfo = "Altis Life By MattGrunts 0.03";
 
-player setVariable["thirstyLevel",100,true];
+player setVariable["thirstLevel",100,true];
 player setVariable["hungryLevel",100,true];
 
 execVM "initJoueur.sqf";
