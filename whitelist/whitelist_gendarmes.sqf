@@ -7,7 +7,6 @@ if (isServer) exitwith {};
 
 sleep 1;
 waitUntil {!isNull player};
-waitUntil {player == player};
 
 //whitelist flic
 _CopList=[
