@@ -9,7 +9,7 @@ if (isDedicated) then {} else
 	{
 		sleep 130;
 		if (player getvariable "hungryLevel" > 100) then {player setVariable["hungryLevel",100,true];};
-		player setVariable["hungryLevel",(player getVariable "hungryLevel") - 1,true];
+		player setVariable["hungryLevel",(player getVariable "hungryLevel") - 5,true];
 		if (player getVariable "hungryLevel" == 50) then
 		{
 			hint "Vous avez faim ! Manger ou vous mourrez !"; 
