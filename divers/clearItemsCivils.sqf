@@ -11,10 +11,10 @@ _delay = 100; // amount of time in-between clean-ups
 while {true} do
 {
 	sleep _delay;
-	debugMessage = "Suppression des items ...";
+	//debugMessage = "Suppression des items ...";
 	_itemsToClear = nearestObjects [_obj,["weaponholder"],_rad];
 	{
 		deleteVehicle _x;
 	} forEach _itemsToClear;
-	debugMessage = "Items Supprimés.";
+	//debugMessage = "Items Supprimés.";
 };
