@@ -7,11 +7,11 @@ X_JIP = false;
 X_SPE = false;
 X_MP = (if (playersNumber east + playersNumber west + playersNumber resistance + playersNumber civilian > 0) then {true} else {false});
 
+execVM "whitelist\whitelist_gendarmes.sqf";
+
 player setVariable["thirstLevel",100,true];
 player setVariable["hungryLevel",100,true];
 player setVariable["dormir",100,true];
-
-_null = [] execVM "whitelist\whitelist_gendarmes.sqf";
 
 _null = [] execVM = "divers\clearItemsCivils.sqf";
 _null = [] execVM = "divers\clearItemsCops.sqf";
