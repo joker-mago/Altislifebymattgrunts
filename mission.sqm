@@ -1284,6 +1284,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="Cop_1";
+					description="Gendarme 1";
 				};
 			};
 		};
@@ -1304,6 +1305,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="Cop_2";
+					description="Gendarme 2";
 				};
 			};
 		};
@@ -1324,6 +1326,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="Cop_3";
+					description="Gendarme 3";
 				};
 			};
 		};
@@ -1344,6 +1347,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="Cop_4";
+					description="Gendarme 4";
 				};
 			};
 		};
@@ -1364,6 +1368,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="Cop_5";
+					description="Gendarme 5";
 				};
 			};
 		};
@@ -1384,6 +1389,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="Cop_6";
+					description="Gendarme 6";
 				};
 			};
 		};
@@ -1404,6 +1410,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="Cop_7";
+					description="Gendarme 7";
 				};
 			};
 		};
@@ -1424,6 +1431,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="Cop_8";
+					description="Gendarme 8";
 				};
 			};
 		};
@@ -1444,6 +1452,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="Cop_9";
+					description="Gendarme 9";
 				};
 			};
 		};
@@ -1464,6 +1473,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="Cop_10";
+					description="Gendarme 10";
 				};
 			};
 		};
@@ -1484,6 +1494,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="Cop_11";
+					description="Gendarme 11";
 				};
 			};
 		};
@@ -1504,6 +1515,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="Cop_12";
+					description="Gendarme 12";
 				};
 			};
 		};
@@ -1524,6 +1536,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="Cop_13";
+					description="Gendarme 13";
 				};
 			};
 		};
@@ -1544,6 +1557,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="Cop_14";
+					description="Gendarme 14";
 				};
 			};
 		};
@@ -1564,6 +1578,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="Cop_15";
+					description="Gendarme 15";
 				};
 			};
 		};
@@ -1584,6 +1599,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="Cop_16";
+					description="Gendarme 16";
 				};
 			};
 		};
@@ -1604,6 +1620,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="Cop_17";
+					description="Gendarme 17";
 				};
 			};
 		};
@@ -1624,6 +1641,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="Cop_18";
+					description="Gendarme 18";
 				};
 			};
 		};
@@ -1644,6 +1662,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="Cop_19";
+					description="Gendarme 19";
 				};
 			};
 		};
@@ -1664,6 +1683,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="Cop_20";
+					description="Gendarme 20";
 				};
 			};
 		};
@@ -1684,6 +1704,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="Cop_21";
+					description="Gendarme 21";
 				};
 			};
 		};
@@ -1704,6 +1725,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="Cop_22";
+					description="Gendarme 22";
 				};
 			};
 		};
@@ -1724,6 +1746,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="Cop_23";
+					description="Gendarme 23";
 				};
 			};
 		};
@@ -1744,6 +1767,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="Cop_24";
+					description="Gendarme 24";
 				};
 			};
 		};
