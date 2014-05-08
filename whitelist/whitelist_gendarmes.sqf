@@ -8,7 +8,6 @@ if (isServer) exitwith {};
 sleep 1;
 waitUntil {!isNull player};
 waitUntil {player == player};
-waituntil {!isnil "statsLoaded"};
 
 //whitelist flic
 _CopList=[
