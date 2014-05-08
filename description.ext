@@ -3,7 +3,7 @@ respawnDelay = 10;
 respawnDialog = true;
 disabledAI = true;
 disableChannels[]={0};
-classHeader
+class Header
 {
 	gameType=RPG;
 	minPlayers=1;
