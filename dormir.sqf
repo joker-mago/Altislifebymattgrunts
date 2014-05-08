@@ -3,6 +3,8 @@
   Auteur: MattGrunts
   Reproduction Interdite
 */
+_cplayer = player;
+
 if (isDedicated) then {} else
 {
   while {player getVariable "dormir" > 0} do
@@ -21,6 +23,7 @@ if (isDedicated) then {} else
 		{
 			hint "Vous êtes tombé de fatigue ! Allez dormir !"; 
 			disableUserInput true;
+			_cplayer switchMove "AinjPpneMstpSnonWnonDnon";
 			sleep 9;
 			disableUserInput false;
 			player setVariable["dormir",1,true];
