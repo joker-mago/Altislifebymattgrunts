@@ -64,10 +64,10 @@ if (player in _ListeGendarmes) then
       removeVest player;
       execVM "habbitaleatoire.sqf";
     };
-  };
 } else {
   cutText["\n\n\n\n\n\n\n Ce slot est reservé aux Gendarmes ! Faites votre candidature sur www.altisliferpg.fr !","BLACK FADED",10]; 
 	sleep 10;
 	cutText["","BLACK IN",6];
 	endMission "Ce slot est reservé aux Gendarmes ! Faites votre candidature sur www.altisliferpg.fr !";
+};
 };
