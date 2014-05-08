@@ -13,6 +13,9 @@ player setVariable["dormir",100,true];
 
 execVM "whitelist\whitelist_gendarmes.sqf";
 
+_null = [] execVM = "divers\clearItemsCivils.sqf";
+_null = [] execVM = "divers\clearItemsCops.sqf";
+
 [8, true, true, 7] execFSM "core_time.fsm";
 execVM "initJoueur.sqf";
 execVM "briefing.sqf";
