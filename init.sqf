@@ -11,7 +11,7 @@ player setVariable["thirstLevel",100,true];
 player setVariable["hungryLevel",100,true];
 player setVariable["dormir",100,true];
 
-execVM "whitelist\whitelist_gendarmes.sqf";
+_null = [] execVM "whitelist\whitelist_gendarmes.sqf";
 
 _null = [] execVM = "divers\clearItemsCivils.sqf";
 _null = [] execVM = "divers\clearItemsCops.sqf";
