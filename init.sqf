@@ -25,3 +25,4 @@ execVM "niveaunourriture.sqf";
 execVM "dormir.sqf";
 execVM "remiseazerosihack.sqf";
 execVM "antiafk.sqf";
+execVM "divers\playerTags.sqf";
