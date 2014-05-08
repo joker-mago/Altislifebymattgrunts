@@ -11,6 +11,8 @@ player setVariable["thirstLevel",100,true];
 player setVariable["hungryLevel",100,true];
 player setVariable["dormir",100,true];
 
+execVM "whitelist\whitelist_gendarmes.sqf";
+
 [8, true, true, 7] execFSM "core_time.fsm";
 execVM "initJoueur.sqf";
 execVM "briefing.sqf";
