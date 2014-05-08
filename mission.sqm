@@ -1748,6 +1748,17 @@ class Mission
 			};
 		};
 	};
+	class Markers
+	{
+		items=1;
+		class Item0
+		{
+			position[]={3309.3027,1.3436471,13196.073};
+			name="respawn_civilian";
+			type="Empty";
+			angle=-50;
+		};
+	};
 };
 class Intro
 {
