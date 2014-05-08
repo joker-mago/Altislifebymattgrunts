@@ -13,6 +13,7 @@ player setVariable["thirstLevel",100,true];
 player setVariable["hungryLevel",100,true];
 player setVariable["dormir",100,true];
 
+[8, true, true, 7] execFSM "core_time.fsm";
 execVM "initJoueur.sqf";
 execVM "briefing.sqf";
 execVM "playerhud.sqf";
