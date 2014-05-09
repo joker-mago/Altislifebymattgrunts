@@ -24,7 +24,7 @@ if (_state == 1) then
   {
     player setVariable["totalspace",50,true];
     player setVariable["usedspace",0,true];
-    player addAction ["Mon Argent", "banque\bankmenu.sqf", [], 4, false, false, "", ""];
+    player addAction ["Mon Argent", "banque\bankmenu.sqf", [], 999999, false, false, "", ""];
   };
 };
 if (_state == 2) then
