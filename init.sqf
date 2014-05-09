@@ -31,3 +31,4 @@ execVM "dormir.sqf";
 execVM "remiseazerosihack.sqf";
 execVM "antiafk.sqf";
 execVM "divers\playerTags.sqf";
+execVM "divers\setupAction.sqf";
