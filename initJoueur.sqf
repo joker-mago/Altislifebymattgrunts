@@ -22,7 +22,8 @@ if (_state == 1) then
   };
   if (side player == civilian) then
   {
-    
+    player setVariable["totalspace",50,true];
+    player setVariable["usedspace",0,true];
   };
 };
 if (_state == 2) then
