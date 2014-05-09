@@ -22,7 +22,9 @@ if (_state == 1) then
   };
   if (side player == civilian) then
   {
-    
+    player setVariable["totalspace",50,true];
+    player setVariable["usedspace",0,true];
+    player addAction ["Mon Argent", "banque\bankmenu.sqf", [], 4, false, false, "", ""];
   };
 };
 if (_state == 2) then
