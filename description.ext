@@ -13,6 +13,8 @@ author = MattGrunts - TS : 62.4.23.10;
 OnLoadName = "Altis Life";
 OnLoadMission = "!!! Version 0.05 !!! Maj du 09/05/2014";
 
+#include "dialog/dialogmenu.hpp"
+
 class RscTitles
 {
 	
