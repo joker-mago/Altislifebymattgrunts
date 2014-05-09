@@ -28,7 +28,8 @@ if (_state == 1) then
 };
 if (_state == 2) then
 {
-  //Pas sur
+  //Permet d'initialiser des variables après un respawn
+  //Beugé..
 };
 
 player setVariable["thirstLevel",100,true];
