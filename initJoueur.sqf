@@ -35,10 +35,3 @@ player setVariable["thirstLevel",100,true];
 player setVariable["hungryLevel",100,true];
 
 player setVariable["mon_argent_poche",0,true];
-
-waitUntil {alive player};
-
-if (side player == civilian) then
-{
-  player addAction ["Mon Argent", "banque\bankmenu.sqf", [], 999999, false, false, "", ""];
-};
