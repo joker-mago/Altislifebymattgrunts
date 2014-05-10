@@ -12,7 +12,7 @@ if (isDedicated) then {} else
 		player setVariable["hungryLevel",(player getVariable "hungryLevel") - 5,true];
 		if (player getVariable "hungryLevel" == 50) then
 		{
-			hint "Vous avez faim ! Manger ou vous mourrez !"; 
+			hint "Vous avez faim ! Manger ou vous allez mourrir !"; 
 		};
 		if (player getVariable "hungryLevel" == 20) then
 		{
