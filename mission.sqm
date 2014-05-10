@@ -53,7 +53,7 @@ class Mission
 					skill=0.60000002;
 					ammo=0;
 					text="Civ_1";
-					
+					description="Civil 1";
 				};
 			};
 		};
