@@ -11,7 +11,7 @@ if (_state == 1) then
   player setVariable["hungryLevel",100,true];
   player setVariable["dormir",100,true];
 
-  player setVariable["mon_argent_banque",10000,true];
+  player setVariable["mon_argent_banque",15000,true];
   player setVariable["mon_argent_poche",2500,true];
   player setVariable["ma_paye",0,true];
   player setVariable["mes_impots",0,true];
