@@ -13,7 +13,7 @@ if (isDedicated) then {} else
     player setVariable["thirstLevel",(player getVariable "thirstLevel") - 5,true];
     if (player getVariable "thirstLevel" == 50) then
     {
-      hint "Vous êtes en train de vous déshydrater ! Buvez ou vous mourrez !"; 
+      hint "Vous êtes en train de vous déshydrater ! Buvez ou vous allez mourrir !"; 
     };
     if (player getVariable "thirstLevel" == 20) then
     {
